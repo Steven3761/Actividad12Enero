@@ -8,5 +8,47 @@
 </head>
 <body>
     
+    <section class="header">
+        <h2>Formulario de ingreso</h2>
+    </section>
+    
+    <div class="container">
+        <section class="contact1">
+            <form>
+                <div class="section-flex-form">
+                    <article class="element-form">
+                        <div class="label">
+                            <label for="">Genero</label>
+                        </div>
+                        <select name="tipomensaje" id="tipomensaje">
+                            <option value="-">Masculino</option>
+                            <option value="1">Femenino</option>
+                        </select>
+                    </article>
+                    <article class="element-form">
+                        <div class="element-form">
+                            <div class="label">
+                                <label for="">Nombre</label>
+                            </div>
+                            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre y apellido">
+                        </div>
+                    </article>
+
+                    <article class="element-form">
+
+                        <div class="label">
+                            <label for="">Edad</label>
+                        </div>
+                        <input type="text" name="email" id="email" placeholder="Escribe tu email">
+
+                    </article>
+                    <br>
+                    <article class="btn-article">
+                        <button type="submit" onclick="validar()"> Enviar Datos</button>
+                    </article>
+                </div>
+            </form>
+        </section>
+
 </body>
 </html>
